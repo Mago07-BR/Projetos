@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: #0B0F1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fundo{
+    background-color: #111827;
+    border-radius: 12px;
+    border: 2px solid #1F2937;
+    height: 60vh;
+    width: 50vh;
+}
+
+.icone{
+    width: 70px;
+}
+.fundo-icone{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.bem-vindo{
+    font-size: 15px;
+    color: #ffffff;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 0;
+}
+.faca-login{
+    margin-top: 0;
+    font-size: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #94A3BB;
+}
+.fundo-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dados {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 0px;
+}
+input{
+    background-color: #1F2937;
+    border: 1px solid #94A3BB;
+    border-radius: 4px;
+    width: 70%;
+    height: 20px;
+    font-size: 9px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.entrar:hover{
+                background: #2563EB;
+                color: #ffffff;
+                border: 2px solid white;
+                transition: .3s;
+            }
+.entrar:active{
+    transform: translateY(4px);
+}
+.entrar{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #3B82F6;
+    border: 1px solid #2563EB;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.criar-conta{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 9px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.criar-conta:hover{
+    text-decoration: underline;
+    color: #0B0F1A;
+}
+.criar-contaa{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+    margin-left: 0px;
+    margin-left: 37px;
+    margin-right: 37px;
+}
