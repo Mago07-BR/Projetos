@@ -1,0 +1,107 @@
+*{
+    font-family: Verdana;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/*Inicio*/
+
+.pag{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 63%;
+}
+.pag h1{
+    color: #6B2E16;
+    font-weight: bold;
+    font-size: 50px;
+}
+.pag img{
+    border-radius: 30px;
+    width: 100%;
+    height: auto;
+}
+.pag p{
+    color: #6B2E16;
+    font-weight: bold;
+}
+
+/*Informações (tempo/preparo)*/
+
+.tempo-preparo{
+    display: flex;
+    width: 63%;
+    background-color: #FFF3E6;
+    border: 2px solid brown;
+    border-radius: 14px;
+    justify-content: space-around;
+}
+.tempo{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.tempo img{
+    width: 52px;
+}
+.porcoes{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.porcoes img{
+    width: 52px;
+}
+strong{
+    color: #6B2E16;
+    font-size: 20px;
+}
+
+/*Seção Igredientes*/
+
+.igredientes{
+    background-color: #E5F5DF;
+    width: 63%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.igredientes h2{
+    color: #426B35;
+}
+.igredientes li::marker{
+    color: #426B35;
+}
+.folha{
+    display: flex;
+}
+.folha img{
+    height: 62px;
+}
+
+/*Seção modo preparo*/
+
+.preparo{
+    background-color: #FFF3E6;
+    width: 63%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.cozinheiro{
+    display: flex;
+}
+.cozinheiro img{
+    height: 62px;
+}
+.cozinheiro h2{
+    color: #6B2E16;
+}
+.preparo li::marker{
+    color: #6B2E16;
+    font-size: 22px;
+}
